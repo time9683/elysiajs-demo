@@ -20,7 +20,7 @@ const app = new Elysia()
 			methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
 		}),
 	)
-.get("/", () => "Hello Elysia").listen(3000);
+.get("/", () => "Hello mundo").listen(3000);
 
 console.log(
   `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
